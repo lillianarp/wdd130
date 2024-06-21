@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+    --primary-color: #050c05;
+    --secondary-color: #8bbec0;
+    --accent1-color: #44918b;
+    --accent2-color: #1a5b57;
+    
+    --heading-font: "Nunito Sans", sans-serif;
+    --heading-font-weight: 600;
+    --heading-font-style: normal;
+    --paragraph-font: "Alegreya Sans", sans-serif;
+    --paragraph-font-weight: 400;
+    --paragraph-font-style: normal;
+
+    --nav-background-color: #cadcde;
+    --nav-link-color: #C74253;
+    --nav-hover-link-color: #F04F43;
+    --nav-hover-background-color: #cadcde;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font-style) var(--heading-font-weight) 1.5rem var(--heading-font);
+    color: var(--primary-color);
+  }
+
+p {
+    padding: 25px;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+body {
+    font-family: var(--paragraph-font-style) var(--paragraph-font-weight) 1rem var(--paragraph-font); 
+    max-width: 960px;
+    padding: 20px;
+}
