@@ -20,8 +20,11 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font-style) var(--heading-font-weight) 1.5rem var(--heading-font);
+    font-family: var(--heading-font); 
+    font-weight: var(--heading-font-weight);
+    font-style: var(--heading-font-style); 
     color: var(--primary-color);
+    font-size: 1.5rem;
   }
 
 p {
@@ -30,7 +33,7 @@ p {
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color)
+    background-color: var(--accent1-color);
 }
 
 nav {
@@ -43,7 +46,7 @@ nav a {
     display: block;
     color: var(--nav-link-color);
     text-decoration: none;
-    padding: 1rem;
+    padding: 1.2rem;
 }
 
 nav a:link, nav a:visited {
@@ -56,7 +59,10 @@ nav a:hover {
 }
 
 body {
-    font-family: var(--paragraph-font-style) var(--paragraph-font-weight) 1rem var(--paragraph-font); 
+    font-family: var(--paragraph-font); 
+    font-weight: var(--paragraph-font-weight);
+    font-style: var(--paragraph-font-style);  
+    font-size: 1rem; 
     max-width: 960px;
     padding: 20px;
 }
