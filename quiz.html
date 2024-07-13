@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Quiz About HTML & CSS</title>
+    <meta name="description" content="We're practicing form-making in HTML for WDD 130 | Web Fundamentals.">
+    <meta name="author" content="Lillian Arp">
+        <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <form><h1>Basic HTML & CSS Quiz</h1>
+            <fieldset>
+                <legend></legend>
+        <!-- q1:  -->
+                <p><label for="q1"><span class="q_number">1. </span>What does the acronym HTML stand for?</label>
+                <p><input type="text" id="q1" name="q1"></p>
+        <!-- Answer: HyperText Markup Language -->
+        <!-- q2:  -->
+                <p><label for="q2"><span class="q_number">2. </span>Describe what the &lt;div&gt; tag is used for in HTML.</label></p> 
+                <p><textarea id="q2" name="q2" rows="4"></textarea></p> 
+        <!-- Answer: The <div> tag is used as a container for other HTML elements. It helps to structure and style sections of a webpage by grouping elements together. -->
+        <!-- q3:  -->
+                <p><label for="q3"><span class="q_number">3. </span>Which of the following is the correct way to apply a CSS class to an HTML element?</label></p> 
+                <p><select id="q3" name="q3">
+                        <option value="" selected disabled>Choose One</option>
+                        <option value="option1">a) &lt;div class="example"&gt;</option>
+                        <option value="option2">b) &lt;div style="example"&gt;</option>
+                        <option value="option3">c) &lt;div id="example"&gt;</option>
+                        <option value="option4">c) &lt;div css="example"&gt;</option>
+                    </select></p> 
+        <!-- Answer: a) <div class="example"> -->
+        <!-- q4:  -->
+                <p><label for="q4"><span class="q_number">4. </span>What is the margin value for the bottom of the .container? </label></p>
+                    <pre class="code-block">
+                    <code>
+            .container {
+                width: 100px;
+                height: 200px;
+                margin: 10px 20px 30px 40px;
+                padding: 5px;
+                border: 1px solid #000;
+            }</code>
+                    </pre>
+                <p>
+                    <input type="number" id="q4" name="q4">
+                </p>
+        <!-- Answer: 30 -->
+            <button type="submit"> Submit Quiz</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
