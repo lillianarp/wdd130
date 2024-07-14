@@ -390,8 +390,7 @@ input {
 }
 
 .button {
-    display: flex;
-    align-items: center;
+    display: inline-block;
     text-align: center;
     background-color: navy;
     color: #fff;
