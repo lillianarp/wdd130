@@ -60,7 +60,7 @@ h6 {
 
 p {
     margin: 0;
-    padding-bottom: 0.8rem;
+    padding: 0.8rem 0;
 }
 
 a {
@@ -417,19 +417,19 @@ main h1 {
 }
 
 .book-trip .cta {
-    padding: 0.2rem 1rem;
+    padding: 1.5rem 1rem;
     background-color: #F64833; 
+    color: #fff !important;
+    font-weight: 600;
+    font-size: 2rem;
     margin: 1rem auto;
     border-radius: 8px;
     text-align: center;
     width: 55%;
-    color: #fff !important;
-    border: 2px solid yellow;
 }
 
 .book-trip .cta:hover {
     background-color: #353535;
-    color: #fff!important;
 }
 
 
