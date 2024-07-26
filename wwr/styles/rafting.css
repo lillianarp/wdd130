@@ -333,6 +333,8 @@ footer ul {
     text-align: center;
     font-size: 1.5rem;
     font-weight: 500;
+    border-bottom: 1px dotted #929292;
+    padding: 2rem 0;
 }
 
 
@@ -696,3 +698,42 @@ input {
     color: #fff;
 }
 
+.promo {
+    margin: 3rem auto;
+}
+
+.our-purpose {
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    height: 300px;
+    width: 90%;
+}
+
+.promo .our-purpose img {
+    float: left;
+    margin-right: 2rem;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    clear: both;
+}
+
+.our-values {
+    margin: 3rem auto;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    height: 300px;
+    width: 90%;
+}
+
+.promo .our-values img {
+    float: right;
+    margin-left: 2rem;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    clear: both;
+}
