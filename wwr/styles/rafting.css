@@ -65,6 +65,11 @@ p {
 
 a {
     text-decoration: none;
+    color: #FF5C33;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 body {
@@ -323,6 +328,13 @@ footer ul {
     background-color: #464545;
 }
 
+.invite {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 
 .hero {
     position: relative;
@@ -419,17 +431,18 @@ main h1 {
 .book-trip .cta {
     padding: 1.5rem 1rem;
     background-color: #F64833; 
-    color: #fff !important;
+    color: #fff;
     font-weight: 600;
     font-size: 2rem;
     margin: 1rem auto;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: center;
     width: 55%;
 }
 
 .book-trip .cta:hover {
     background-color: #353535;
+    text-decoration: none;
 }
 
 
